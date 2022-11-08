@@ -128,3 +128,381 @@
 [2022-11-08T04:51:21.336+0000] {logging_mixin.py:120} INFO - [2022-11-08T04:51:21.335+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2022-11-08T04:51:21.357+0000] {logging_mixin.py:120} INFO - [2022-11-08T04:51:21.357+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
 [2022-11-08T04:51:21.373+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.151 seconds
+[2022-11-08T07:19:52.398+0000] {processor.py:154} INFO - Started process (PID=35) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:19:52.401+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:19:52.402+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:19:52.402+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:19:52.441+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:19:52.519+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:19:52.519+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:19:52.548+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:19:52.547+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:19:52.578+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.182 seconds
+[2022-11-08T07:20:22.679+0000] {processor.py:154} INFO - Started process (PID=64) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:20:22.682+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:20:22.683+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:20:22.683+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:20:22.714+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:20:22.752+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:20:22.752+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:20:22.772+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:20:22.772+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:20:22.787+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.112 seconds
+[2022-11-08T07:20:52.988+0000] {processor.py:154} INFO - Started process (PID=92) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:20:52.991+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:20:52.992+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:20:52.992+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:20:53.022+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:20:53.053+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:20:53.053+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:20:53.071+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:20:53.071+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:20:53.082+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.098 seconds
+[2022-11-08T07:21:23.248+0000] {processor.py:154} INFO - Started process (PID=119) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:21:23.250+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:21:23.252+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:21:23.252+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:21:23.291+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:21:23.341+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:21:23.341+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:21:23.367+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:21:23.367+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:21:23.387+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.142 seconds
+[2022-11-08T07:21:53.625+0000] {processor.py:154} INFO - Started process (PID=138) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:21:53.627+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:21:53.630+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:21:53.630+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:21:53.665+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:21:53.716+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:21:53.716+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:21:53.746+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:21:53.745+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:21:53.770+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.150 seconds
+[2022-11-08T07:22:15.962+0000] {processor.py:154} INFO - Started process (PID=157) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:22:15.965+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:22:15.967+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:22:15.967+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:22:16.003+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:22:16.069+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:22:16.069+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:22:16.084+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:22:16.084+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:22:16.101+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.143 seconds
+[2022-11-08T07:22:39.272+0000] {processor.py:154} INFO - Started process (PID=185) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:22:39.275+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:22:39.276+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:22:39.276+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:22:39.312+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:22:39.336+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:22:39.336+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:22:39.354+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:22:39.353+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:22:39.372+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2022-11-08T07:22:48.496+0000] {processor.py:154} INFO - Started process (PID=186) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:22:48.498+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:22:48.500+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:22:48.500+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:22:48.553+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:22:48.621+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:22:48.621+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:22:48.637+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:22:48.637+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:22:48.655+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.163 seconds
+[2022-11-08T07:23:18.928+0000] {processor.py:154} INFO - Started process (PID=213) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:23:18.930+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:23:18.932+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:23:18.932+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:23:18.972+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:23:19.019+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:23:19.019+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:23:19.042+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:23:19.042+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:23:19.055+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.131 seconds
+[2022-11-08T07:23:49.314+0000] {processor.py:154} INFO - Started process (PID=241) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:23:49.317+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:23:49.319+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:23:49.318+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:23:49.351+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:23:49.396+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:23:49.396+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:23:49.418+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:23:49.418+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:23:49.432+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.122 seconds
+[2022-11-08T07:24:19.724+0000] {processor.py:154} INFO - Started process (PID=269) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:24:19.727+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:24:19.729+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:24:19.729+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:24:19.757+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:24:19.799+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:24:19.799+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:24:19.833+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:24:19.833+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:24:19.853+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.133 seconds
+[2022-11-08T07:24:50.096+0000] {processor.py:154} INFO - Started process (PID=298) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:24:50.099+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:24:50.101+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:24:50.101+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:24:50.139+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:24:50.198+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:24:50.198+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:24:50.225+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:24:50.224+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:24:50.243+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.151 seconds
+[2022-11-08T07:25:20.511+0000] {processor.py:154} INFO - Started process (PID=317) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:25:20.515+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:25:20.517+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:25:20.517+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:25:20.555+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:25:20.603+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:25:20.603+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:25:20.621+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:25:20.621+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:25:20.634+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.128 seconds
+[2022-11-08T07:25:50.769+0000] {processor.py:154} INFO - Started process (PID=345) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:25:50.772+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:25:50.775+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:25:50.774+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:25:50.803+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:25:50.858+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:25:50.858+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:25:50.885+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:25:50.885+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:25:50.902+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.137 seconds
+[2022-11-08T07:26:21.166+0000] {processor.py:154} INFO - Started process (PID=373) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:26:21.169+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:26:21.170+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:26:21.170+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:26:21.210+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:26:21.249+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:26:21.248+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:26:21.273+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:26:21.273+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:26:21.286+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.124 seconds
+[2022-11-08T07:26:51.473+0000] {processor.py:154} INFO - Started process (PID=401) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:26:51.475+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:26:51.477+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:26:51.477+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:26:51.507+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:26:51.550+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:26:51.550+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:26:51.573+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:26:51.572+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:26:51.588+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.119 seconds
+[2022-11-08T07:27:21.933+0000] {processor.py:154} INFO - Started process (PID=429) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:27:21.937+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:27:21.939+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:27:21.939+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:27:21.986+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:27:22.046+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:27:22.046+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:27:22.074+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:27:22.074+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:27:22.095+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.172 seconds
+[2022-11-08T07:27:52.333+0000] {processor.py:154} INFO - Started process (PID=448) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:27:52.337+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:27:52.347+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:27:52.347+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:27:52.385+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:27:52.422+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:27:52.422+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:27:52.439+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:27:52.439+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:27:52.458+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.131 seconds
+[2022-11-08T07:28:22.752+0000] {processor.py:154} INFO - Started process (PID=476) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:28:22.755+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:28:22.758+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:28:22.757+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:28:22.793+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:28:22.837+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:28:22.837+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:28:22.857+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:28:22.856+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:28:22.869+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.122 seconds
+[2022-11-08T07:28:53.180+0000] {processor.py:154} INFO - Started process (PID=504) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:28:53.183+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:28:53.184+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:28:53.184+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:28:53.206+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:28:53.232+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:28:53.232+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:28:53.247+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:28:53.247+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:28:53.258+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.081 seconds
+[2022-11-08T07:29:23.584+0000] {processor.py:154} INFO - Started process (PID=532) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:29:23.587+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:29:23.589+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:29:23.589+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:29:23.616+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:29:23.650+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:29:23.650+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:29:23.677+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:29:23.677+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:29:23.690+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.114 seconds
+[2022-11-08T07:29:53.963+0000] {processor.py:154} INFO - Started process (PID=559) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:29:53.966+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:29:53.967+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:29:53.967+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:29:53.996+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:29:54.038+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:29:54.037+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:29:54.060+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:29:54.060+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:29:54.077+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.119 seconds
+[2022-11-08T07:30:24.295+0000] {processor.py:154} INFO - Started process (PID=578) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:30:24.299+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:30:24.301+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:30:24.301+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:30:24.329+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:30:24.364+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:30:24.364+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:30:24.382+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:30:24.382+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:30:24.395+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.105 seconds
+[2022-11-08T07:30:54.685+0000] {processor.py:154} INFO - Started process (PID=606) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:30:54.688+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:30:54.690+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:30:54.689+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:30:54.716+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:30:54.749+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:30:54.749+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:30:54.765+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:30:54.765+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:30:54.776+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.095 seconds
+[2022-11-08T07:31:00.755+0000] {processor.py:154} INFO - Started process (PID=616) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:31:00.758+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:31:00.759+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:31:00.759+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:31:00.782+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:31:00.779+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 34, in <module>
+    task1.set_downstream(task4)
+NameError: name 'task1' is not defined
+[2022-11-08T07:31:00.783+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:31:00.801+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.051 seconds
+[2022-11-08T07:31:31.058+0000] {processor.py:154} INFO - Started process (PID=635) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:31:31.060+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:31:31.064+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:31:31.064+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:31:31.117+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:31:31.197+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:31:31.197+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:31:31.218+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:31:31.218+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:31:31.246+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.198 seconds
+[2022-11-08T07:32:01.418+0000] {processor.py:154} INFO - Started process (PID=663) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:32:01.421+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:32:01.423+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:32:01.423+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:32:01.447+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:32:01.476+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:32:01.476+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:32:01.491+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:32:01.491+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:32:01.504+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.089 seconds
+[2022-11-08T07:32:31.785+0000] {processor.py:154} INFO - Started process (PID=690) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:32:31.788+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:32:31.789+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:32:31.789+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:32:31.820+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:32:31.856+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:32:31.855+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:32:31.872+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:32:31.872+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:32:31.883+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.102 seconds
+[2022-11-08T07:32:44.982+0000] {processor.py:154} INFO - Started process (PID=700) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:32:44.985+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:32:44.987+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:32:44.987+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:32:45.021+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:32:45.063+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:32:45.063+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:32:45.083+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:32:45.083+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:32:45.100+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.121 seconds
+[2022-11-08T07:33:15.357+0000] {processor.py:154} INFO - Started process (PID=728) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:33:15.360+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:33:15.362+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:33:15.362+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:33:15.412+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:33:15.453+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:33:15.453+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:33:15.470+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:33:15.470+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:33:15.488+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.136 seconds
+[2022-11-08T07:33:45.662+0000] {processor.py:154} INFO - Started process (PID=756) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:33:45.667+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:33:45.668+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:33:45.668+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:33:45.701+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:33:45.741+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:33:45.741+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:33:45.762+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:33:45.762+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:33:45.776+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.125 seconds
+[2022-11-08T07:34:16.065+0000] {processor.py:154} INFO - Started process (PID=787) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:34:16.067+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:34:16.069+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:34:16.069+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:34:16.088+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:34:16.116+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:34:16.116+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:34:16.133+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:34:16.132+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:34:16.144+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.081 seconds
+[2022-11-08T07:34:46.461+0000] {processor.py:154} INFO - Started process (PID=816) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:34:46.464+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:34:46.466+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:34:46.466+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:34:46.497+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:34:46.547+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:34:46.547+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:34:46.574+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:34:46.574+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:34:46.591+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.133 seconds
+[2022-11-08T07:35:16.899+0000] {processor.py:154} INFO - Started process (PID=835) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:35:16.901+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:35:16.903+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:35:16.903+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:35:16.935+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:35:16.960+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:35:16.960+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:35:16.975+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:35:16.975+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:35:16.985+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.090 seconds
+[2022-11-08T07:35:47.244+0000] {processor.py:154} INFO - Started process (PID=862) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:35:47.248+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:35:47.250+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:35:47.250+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:35:47.276+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:35:47.306+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:35:47.306+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:35:47.322+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:35:47.322+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:35:47.334+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.094 seconds
+[2022-11-08T07:36:17.505+0000] {processor.py:154} INFO - Started process (PID=891) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:36:17.508+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:36:17.510+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:36:17.509+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:36:17.538+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:36:17.581+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:36:17.581+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:36:17.603+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:36:17.602+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:36:17.618+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.117 seconds
+[2022-11-08T07:36:47.897+0000] {processor.py:154} INFO - Started process (PID=919) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:36:47.899+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:36:47.901+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:36:47.901+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:36:47.930+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:36:47.969+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:36:47.968+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:36:47.984+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:36:47.984+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:36:48.002+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.109 seconds
+[2022-11-08T07:37:18.210+0000] {processor.py:154} INFO - Started process (PID=947) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:37:18.212+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:37:18.213+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:37:18.213+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:37:18.229+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:37:18.255+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:37:18.255+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:37:18.270+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:37:18.270+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:37:18.281+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.074 seconds
+[2022-11-08T07:37:48.610+0000] {processor.py:154} INFO - Started process (PID=966) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:37:48.614+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:37:48.615+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:37:48.615+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:37:48.642+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:37:48.686+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:37:48.686+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:37:48.706+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:37:48.706+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:37:48.719+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.112 seconds
+[2022-11-08T07:38:18.928+0000] {processor.py:154} INFO - Started process (PID=994) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:38:18.931+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:38:18.932+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:38:18.932+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:38:18.948+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:38:18.974+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:38:18.973+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:38:18.987+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:38:18.987+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:38:18.997+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.072 seconds
+[2022-11-08T07:38:49.192+0000] {processor.py:154} INFO - Started process (PID=1022) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:38:49.194+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:38:49.196+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:38:49.196+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:38:49.225+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:38:49.261+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:38:49.261+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:38:49.278+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:38:49.278+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:38:49.290+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2022-11-08T07:39:19.585+0000] {processor.py:154} INFO - Started process (PID=1051) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:39:19.588+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:39:19.591+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:39:19.591+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:39:19.615+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:39:19.640+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:39:19.640+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:39:19.654+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:39:19.654+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:39:19.664+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.083 seconds
+[2022-11-08T07:39:49.905+0000] {processor.py:154} INFO - Started process (PID=1079) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:39:49.908+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:39:49.912+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:39:49.911+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:39:49.933+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:39:49.960+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:39:49.959+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:39:49.974+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:39:49.974+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:39:49.987+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.086 seconds
+[2022-11-08T07:40:20.334+0000] {processor.py:154} INFO - Started process (PID=1098) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:40:20.337+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:40:20.339+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:40:20.339+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:40:20.367+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:40:20.398+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:40:20.398+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:40:20.414+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:40:20.414+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:40:20.426+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.096 seconds
+[2022-11-08T07:40:50.750+0000] {processor.py:154} INFO - Started process (PID=1125) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:40:50.752+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:40:50.754+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:40:50.754+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:40:50.774+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:40:50.801+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:40:50.801+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:40:50.817+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:40:50.817+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to 2022-03-30T00:00:00+00:00, run_after=2022-03-30T00:00:00+00:00
+[2022-11-08T07:40:50.828+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.083 seconds
+[2022-11-08T07:41:21.188+0000] {processor.py:154} INFO - Started process (PID=1153) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:41:21.195+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:41:21.203+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:41:21.203+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:41:21.279+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:41:21.351+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:41:21.351+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:41:21.391+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:41:21.390+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to None, run_after=None
+[2022-11-08T07:41:21.467+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.288 seconds
+[2022-11-08T07:41:51.684+0000] {processor.py:154} INFO - Started process (PID=1181) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:41:51.695+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:41:51.702+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:41:51.701+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:41:51.864+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:41:52.101+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:41:52.101+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:41:52.136+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:41:52.136+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to None, run_after=None
+[2022-11-08T07:41:52.163+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.486 seconds
+[2022-11-08T07:42:22.406+0000] {processor.py:154} INFO - Started process (PID=1209) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:42:22.426+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:42:22.435+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:42:22.434+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:42:22.555+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:42:22.666+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:42:22.666+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:42:22.714+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:42:22.714+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to None, run_after=None
+[2022-11-08T07:42:22.762+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.375 seconds
+[2022-11-08T07:42:53.070+0000] {processor.py:154} INFO - Started process (PID=1228) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:42:53.073+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:42:53.074+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:42:53.074+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:42:53.114+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:42:53.164+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:42:53.164+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:42:53.185+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:42:53.185+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to None, run_after=None
+[2022-11-08T07:42:53.202+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.136 seconds
+[2022-11-08T07:43:23.364+0000] {processor.py:154} INFO - Started process (PID=1256) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:43:23.366+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:43:23.368+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:43:23.367+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:43:23.398+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:43:23.440+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:43:23.440+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:43:23.460+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:43:23.460+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to None, run_after=None
+[2022-11-08T07:43:23.475+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.115 seconds
+[2022-11-08T07:43:53.761+0000] {processor.py:154} INFO - Started process (PID=1284) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:43:53.763+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:43:53.765+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:43:53.765+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:43:53.788+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:43:53.817+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:43:53.817+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:43:53.831+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:43:53.831+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to None, run_after=None
+[2022-11-08T07:43:53.842+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.083 seconds
+[2022-11-08T07:44:24.075+0000] {processor.py:154} INFO - Started process (PID=1312) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:44:24.077+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:44:24.079+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:44:24.079+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:44:24.110+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:44:24.153+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:44:24.153+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:44:24.171+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:44:24.170+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to None, run_after=None
+[2022-11-08T07:44:24.182+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.114 seconds
+[2022-11-08T07:44:54.316+0000] {processor.py:154} INFO - Started process (PID=1340) to work on /opt/airflow/dags/dag.py
+[2022-11-08T07:44:54.318+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2022-11-08T07:44:54.319+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:44:54.319+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2022-11-08T07:44:54.342+0000] {processor.py:766} INFO - DAG(s) dict_keys(['kinesis-data-firehose']) retrieved from /opt/airflow/dags/dag.py
+[2022-11-08T07:44:54.377+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:44:54.377+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-08T07:44:54.396+0000] {logging_mixin.py:120} INFO - [2022-11-08T07:44:54.396+0000] {dag.py:3340} INFO - Setting next_dagrun for kinesis-data-firehose to None, run_after=None
+[2022-11-08T07:44:54.407+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag.py took 0.095 seconds
